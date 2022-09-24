@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -20,3 +20,6 @@ patch:
   'npm:request:20160119':
     - google-distance > request:
         patched: '2018-08-03T00:54:49.651Z'
+  'npm:qs:20140806':
+    - google-distance > request > qs:
+        patched: '2022-09-24T22:40:18.287Z'
